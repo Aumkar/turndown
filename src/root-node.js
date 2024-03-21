@@ -14,7 +14,7 @@ export default function RootNode (input, options) {
     )
     root = doc.getElementById('turndown-root')
   } else {
-    root = input.cloneNode(true)
+    root = input
   }
   collapseWhitespace({
     element: root,
